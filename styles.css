@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+
+.container {
+  /* width: 800px;
+  height: 500px;
+  padding: 20px;
+  margin: 0 auto; */
+  /* width: 80vw ; */
+  /* height: 500px; */
+  /* margin: 0 auto ; */
+}
+
+.range {
+	display: flex;
+	flex-direction: row;
+  align-items: center;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #e0e0e0;
+  color: #a8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 80px;
+  border: 3px solid  #e0e0e0;
+}
+
+button{
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	color: #efefef;
+	font-weight: 600;
+	font-size: 16px;
+	border: 1px solid #efefef;
+	background-color: deepskyblue;
+	margin-top: 30px;
+}
+#prev{
+	margin-left: 150px;
+	margin-right: 10px;
+}
+
+.active {
+	border: 3px solid deepskyblue;
+}
+
+button:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}`
+
